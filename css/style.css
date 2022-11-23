@@ -1,0 +1,27 @@
+@import url("../css/components/header.css");
+@import url("../css/components/composition.css");
+
+
+body {
+   box-sizing: border-box;
+   font-family: 'PT Sans Caption', sans-serif;
+
+   height: 700vh;
+
+   margin: 0px;
+   padding: 0px;
+}
+
+.button {
+   width: 250px;
+   height: 40px;
+   border: 0.1px solid purple;
+   border-radius: 50px;
+   font-family: 'PT Sans Caption', sans-serif;
+   font-size: 17px;
+   font-weight: 700;
+   color: yellow;
+   background-color: purple;
+   margin-left: 65px;
+   margin-top: 15px;
+}
