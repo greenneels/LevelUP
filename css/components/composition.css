@@ -1,0 +1,50 @@
+.composition-line {
+   position: absolute;
+   margin-top: 280px;
+   height: 35px;
+   width: 100%;
+   z-index: 1;
+   background-color: yellow;
+}
+
+.composition__content {
+   justify-content: space-around;
+   z-index: 2;
+   position: relative;
+} 
+
+.left {
+   margin-left: 55px;
+}
+
+.right {
+   margin-right: 55px;
+}
+
+.column-item-pic {
+   display: block;
+   width: 150px;
+   height: 150px;
+   border-radius: 100%;
+   margin: auto;
+}
+
+.column-item-text {
+   font-size: 14px;
+   margin: 15px 0px 45px 0px;
+}
+
+.content__column-pic {
+   margin: 80px 0px 35px 0;
+}
+
+.content__column-pic img {
+   display: block;
+   width: 220px;
+   height: 380px;
+   margin: 0 auto;
+}
+
+.composition__button .button {
+   margin: auto;
+}
