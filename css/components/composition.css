@@ -4,7 +4,8 @@
    height: 35px;
    width: 100%;
    z-index: 1;
-   background-color: yellow;
+   background-color: #FFD800;
+   border-radius: 5%;
 }
 
 .composition__content {
@@ -21,6 +22,14 @@
    margin-right: 55px;
 }
 
+.left .column-item:nth-child(2) {
+   margin-right: 150px !important;
+}
+
+.right .column-item:nth-child(2) {
+   margin-left: 150px !important;
+}
+
 .column-item-pic {
    display: block;
    width: 150px;
@@ -32,6 +41,7 @@
 .column-item-text {
    font-size: 14px;
    margin: 15px 0px 45px 0px;
+   text-align: center;
 }
 
 .content__column-pic {

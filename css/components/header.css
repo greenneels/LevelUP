@@ -4,7 +4,7 @@ header {
 }
 
 .header__bg {
-   height: 100vh;
+   height: 700px /* 100vh */;
    width: 100%;
    overflow: hidden;
    display: flex;
@@ -14,7 +14,7 @@ header {
 }
 
 .header__bg-video {
-   height: 100vh;
+   height: 700px /* 100vh */;
    width: 100%;
    position: absolute;
    top: 0;
@@ -23,12 +23,12 @@ header {
 }
 
 .header__bg-effects {
-   height: 100vh;
+   height: 700px /* 100vh */;
    width: 100%;
    position: absolute;
    top: 0;
    left: 0;
-   background-color: rgba(0, 0, 0, 0.8);
+   background-color: rgba(0, 0, 0, 0.15);
    z-index: 2;
 }
 
@@ -49,7 +49,7 @@ header {
 }
 
 h1 {
-   color: white;
+   color: #FFD800;;
    font-size: 52px;
    font-weight: 700;
    margin-bottom: 0px;
