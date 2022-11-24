@@ -4,7 +4,7 @@ header {
 }
 
 .header__bg {
-   height: 700px /* 100vh */;
+   height: 700px;
    width: 100%;
    overflow: hidden;
    display: flex;
@@ -14,7 +14,7 @@ header {
 }
 
 .header__bg-video {
-   height: 700px /* 100vh */;
+   height: 700px;
    width: 100%;
    position: absolute;
    top: 0;
@@ -23,7 +23,7 @@ header {
 }
 
 .header__bg-effects {
-   height: 700px /* 100vh */;
+   height: 700px;
    width: 100%;
    position: absolute;
    top: 0;
@@ -35,16 +35,12 @@ header {
 .header__content {
    position: absolute;
    z-index: 3;
-   display: block;
-   align-items: center;
-   justify-content: center;
    top: 20px;
    max-width: 1170px;
    width: 100%;
 }
 
 .header__content-title {
-   margin: 0px auto;
    text-align: center;
 }
 
@@ -70,7 +66,7 @@ h2 {
 }
 
 .header__content-pic {
-   margin: 0px 0px 0px 150px;
+   margin-left: 150px;
 }
 
 .header__content-pic img {
@@ -79,7 +75,7 @@ h2 {
 }
 
 .header__content-text {
-   margin: 0px 150px 0px 0px;
+   margin-right: 150px;
 }
 
 .header__content-text li {
@@ -88,11 +84,17 @@ h2 {
    padding-bottom: 15px;
 }
 
-.header .button {
-   margin-left: 65px;
-   margin-top: 15px;
+.header__content-text .button {
+   display: block;
+   margin: auto;
 }
 
+
+@media screen and (max-width: 1200px) {
+   .header__bg-video {
+      max-width: 100%;
+   }
+}
 
 
 

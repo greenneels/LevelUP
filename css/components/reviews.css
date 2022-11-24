@@ -1,4 +1,37 @@
 #reviews {
    background: linear-gradient(287.15deg, #450E4B 0%, #3C0C41 24.48%, rgba(207, 0, 99, 0) 100%), #CF0063;
+   height: 450px ;
+}
+
+.reviews-card {
+   display: flex;
+   align-items: center;
+}
+
+.card {
+   margin: 0 50px;
+   background-color: #FFD800;
+   border-radius: 20%;
+   width: 250px;
+   height: 250px;
+}
+
+.reviews-card img {
+   display: block;
+   width: 75px;
+   height: 75px;
+   border-radius: 100%;
+   margin: auto;
+   padding-top: 15px;
+}
+
+.reviews-card p {
+   text-align: center;
+   font-size: 11px;
+}
+
+.name {
+   font-size: 20px !important;
+   color: white;
 }
 

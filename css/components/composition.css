@@ -9,9 +9,7 @@
 }
 
 .composition__content {
-   justify-content: space-around;
    z-index: 2;
-   position: relative;
 } 
 
 .left {
@@ -23,11 +21,11 @@
 }
 
 .left .column-item:nth-child(2) {
-   margin-right: 150px !important;
+   margin-right: 150px;
 }
 
 .right .column-item:nth-child(2) {
-   margin-left: 150px !important;
+   margin-left: 150px;
 }
 
 .column-item-pic {
@@ -45,7 +43,7 @@
 }
 
 .content__column-pic {
-   margin: 80px 0px 35px 0;
+   margin: 80px 0px 35px;
 }
 
 .content__column-pic img {

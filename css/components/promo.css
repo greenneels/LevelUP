@@ -7,8 +7,14 @@
 }
 
 .main-pic img {
-   display: block;
    margin-left: 55px;
+}
+
+.main-description {
+   width: 500px;
+   text-align: justify;
+   margin: auto;
+   line-height: 25px;
 }
 
 .description-text p {
@@ -16,37 +22,22 @@
    font-size: 17px;
 }
 
-.main-description {
-   display: block;
-   width: 500px;
-   text-align: justify;
-   margin: auto;
-   line-height: 25px;
+.promo__text ul {
+   display: flex;
+   justify-content: space-around;
+   align-items: center;
+   margin-top: 70px;
+   padding: 0px;
+}
+
+.promo__text li {
+   display: inline-block;
+   font-size: 25px;
+   color: purple;
 }
 
 .description-button .button {
    display: block;
    margin: auto;
-}
-
-.promo__text ul {
-   display: flex;
-   justify-content: space-around;
-   align-items: center;
-   margin-top: 100px;
-   padding: 0px;
-   
-}
-
-/* .promo__line {
-   position: relative;
-   background-color: #FFD800;
-   height: 35px;
-   width: 100%;
-   max-width: 1400px;
-} */
-
-.promo__text li {
-   display: inline-block;
 }
 

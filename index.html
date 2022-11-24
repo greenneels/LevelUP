@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
 
 <head>
    <meta charset="UTF-8">
@@ -14,16 +14,15 @@
 
 <body>
 
-   <header id="header" class="header">
+   <header id="header">
       <div class="header__bg">
-
          <video class="header__bg-video" src="video/video-bg.mp4" type="video/mp4" autoplay muted loop></video>
          <div class="header__bg-effects"></div>
 
          <div class="header__content">
-            <div class="header__content-title content-title">
+            <div class="header__content-title">
                <h1>LevelUp</h1>
-               <h2>Продукт для повышения настроен</h2>
+               <h2>Продукт для повышения потенции</h2>
             </div>
 
             <div class="header__content-main">
@@ -38,7 +37,7 @@
                      <li>Lorem ipsum dolor sit amet consectetur</li>
                   </ul>
 
-                  <button class="button">aЗаказать</button>
+                  <button class="button"><a href="#order">Оформить заказ</a></button>
                </div>
             </div>
          </div>
@@ -66,13 +65,13 @@
             </div>
          </div>
 
-         <div class="content__column-center">
+         <div class="content__column">
             <div class="content__column-pic">
                <img src="img/prod.png" alt="">
             </div>
 
             <div class="composition__button">
-               <button class="button">Заказать</button>
+               <button class="button"><a href="#order">Оформить заказ</a></button>
             </div>
          </div>
 
@@ -97,10 +96,50 @@
 
    <section id="reviews">
       <div class="reviews__content content">
-         <!-- слайдер -->
+         <div class="reviews-card">
+
+            <div class="card">
+               <div class="card-photo">
+                  <img src="img/man.png" alt="">
+               </div>
+               <div class="card-name">
+                  <p class="name">Иван К.</p>
+               </div>
+               <div class="card-text">
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam, aut doloribus natus totam
+                     architecto error non laudantium. Labore, iste. Accusantium natus commodi.</p>
+               </div>
+            </div>
+
+            <div class="card">
+               <div class="card-photo">
+                  <img src="img/man2.jpg" alt="">
+               </div>
+               <div class="card-name">
+                  <p class="name">Антон Л.</p>
+               </div>
+               <div class="card-text">
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam, aut doloribus natus totam
+                     architecto error non laudantium. Labore, iste. Accusantium natus commodi.</p>
+               </div>
+            </div>
+
+            <div class="card">
+               <div class="card-photo">
+                  <img src="img/man.png" alt="">
+               </div>
+               <div class="card-name">
+                  <p class="name">Михаил К.</p>
+               </div>
+               <div class="card-text">
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam, aut doloribus natus totam
+                     architecto error non laudantium. Labore, iste. Accusantium natus commodi.</p>
+               </div>
+            </div>
+         </div>
+
       </div>
    </section>
-
 
    <section id="promo">
       <div class="promo__content content">
@@ -123,10 +162,9 @@
                      aspernatur atque odit impedit distinctio quo.</p>
                </div>
                <div class="description-button">
-                  <button class="button">Заказать</button>
+                  <button class="button"><a href="#order">Оформить заказ</a></button>
                </div>
             </div>
-
          </div>
 
          <div class="promo__text">
@@ -145,22 +183,22 @@
 
             <div class="content-title">
                <h1>LevelUp</h1>
-               <h2>Продукт для повышения настроен</h2>
+               <h2>Продукт для повышения потенции</h2>
             </div>
 
             <div class="column">
                <div class="form">
-                  <div class="div">
+                  <div class="form__title">
                      <p>Оформить заказ</p>
                   </div>
                   <div class="form__item">
                      <input type="text" class="form-control" placeholder="Ваше имя">
                   </div>
                   <div class="form__item">
-                     <input type="text" class="form-control" placeholder="Ваш телефон">
+                     <input type="number" class="form-control" placeholder="Ваш телефон" title="+79993332211">
                   </div>
                   <div class="form__item">
-                     <button class="button">Заказать</button>
+                     <button class="button"><a href="#order">Заказать</a></button>
                   </div>
                </div>
 
@@ -170,12 +208,9 @@
                   <h3>1500 руб.</h3>
                </div>
             </div>
-
          </div>
       </div>
    </section>
-
-
 
 </body>
 
